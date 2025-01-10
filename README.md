@@ -1,2 +1,2 @@
 # RestuarantPage
-Home Page for a restuarant!
+Food ShowCase Page for a restuarant!

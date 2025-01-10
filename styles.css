@@ -1,0 +1,41 @@
+#PageHead, .FoodDesc, #PageTitle, #Explore, #Off {
+    margin:0;
+    margin-left: 2px;
+    padding:0;
+    border: 0;
+}
+body{
+    background-color: rgb(253, 245, 234);
+}
+#PageHead {
+    display: inline-block;
+    border: 2px solid black;
+    width: 450px;
+}
+#Explore {
+    font-size: 18px;
+    background-color:  #fcc81d;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+}
+#Explore:hover :active {
+    border:0;
+    background-color:  #ccb569;
+    color: rgb(219, 219, 219);
+}
+#PageTitle {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+#Off {
+    text-align: center;
+    background-color: rgb(5, 173, 5);
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 25px;
+}

@@ -1,41 +1,59 @@
-#PageHead, .FoodDesc, #PageTitle, #Explore, #Off {
+#Profile, #PageHead, #Off, #PageTitle, #Text, .FoodDesc, #Explore {
     margin:0;
     margin-left: 2px;
     padding:0;
     border: 0;
+    font-family: 'Roboto';
 }
-body{
-    background-color: rgb(253, 245, 234);
+body {
+    background-color: antiquewhite;
+}
+#Profile {
+    display: inline-block;
+    width: 512px;
+    height: 514px;
+    border-radius: 256px;
 }
 #PageHead {
     display: inline-block;
-    border: 2px solid black;
-    width: 450px;
-}
-#Explore {
-    font-size: 18px;
-    background-color:  #fcc81d;
-    font-weight: bold;
-    color: white;
-    margin-top: 20px;
-    padding: 10px;
-    width: 150px;
-    height: 50px;
-}
-#Explore:hover :active {
-    border:0;
-    background-color:  #ccb569;
-    color: rgb(219, 219, 219);
-}
-#PageTitle {
-    font-size: 40px;
-    margin-bottom: 10px;
+    width: 562px;
+    height: 377px;
 }
 #Off {
+    margin-bottom: 30px;
+    width: 205px;
+    height: 35px;
+    font-weight: 400;
+    font-size: 14px;
     text-align: center;
-    background-color: rgb(5, 173, 5);
-    color: white;
-    width: 200px;
-    height: 40px;
-    margin-bottom: 25px;
+    color: #FFFFFF;
+    background-color: #149F39;
+}
+#PageTitle {
+    margin-bottom: 20px;
+    width: 562px;
+    height: 168px;
+    font-size: 72px;
+    line-height: 84.38px;
+    color: #000000;
+}
+#Text {
+    margin-bottom: 30px;
+    width: 363px;
+    height: 35px;
+}
+.FoodDesc{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #000000;
+}
+#Explore {
+    width: 174px;
+    height: 57px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color:  #FFC066;
 }

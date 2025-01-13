@@ -1,6 +1,6 @@
-#Profile, #PageHead, #Off, #PageTitle, #Text, .FoodDesc, #Explore {
+#Logo, #MenuLogo, #Profile, #PageHead, #Off, #PageTitle, #Text, .FoodDesc, #Explore {
+    position: absolute;
     margin:0;
-    margin-left: 2px;
     padding:0;
     border: 0;
     font-family: 'Roboto';
@@ -8,21 +8,43 @@
 body {
     background-color: antiquewhite;
 }
-#Profile {
+#Logo{
     display: inline-block;
+    width: 201px;
+    height: 76px;
+    margin-top: 10px;
+    margin-left: 117px;
+}
+#MenuLogo {
+    display: inline-block;
+    margin-top: 36px;
+    margin-left: 1288px;
+    width: 32px;
+    height: 32px;
+}
+#Profile {
+    display:inline-block;
+    margin-top: 132px;
+    margin-left: 155px;
     width: 512px;
     height: 514px;
     border-radius: 256px;
 }
+
 #PageHead {
     display: inline-block;
-    width: 562px;
-    height: 377px;
+    margin-top: 201px;
+    margin-left: 736px; 
+     width: 562px;
+    height: 377px;    
 }
+
 #Off {
-    margin-bottom: 30px;
+    position: relative;
     width: 205px;
     height: 35px;
+    /* margin-top: 201px;  */
+    /* margin-left: 739px; */
     font-weight: 400;
     font-size: 14px;
     text-align: center;
@@ -30,27 +52,35 @@ body {
     background-color: #149F39;
 }
 #PageTitle {
-    margin-bottom: 20px;
+    position: relative;
     width: 562px;
     height: 168px;
+    margin-top: 37px;
+    /* margin-left: 736px; */
     font-size: 72px;
     line-height: 84.38px;
     color: #000000;
 }
 #Text {
-    margin-bottom: 30px;
+    position: relative;
+     margin-top: 10px; 
+    /* margin-left: 739px; */
     width: 363px;
     height: 35px;
 }
 .FoodDesc{
+    position: relative;
     font-size: 12px;
     font-weight: 500;
     line-height: 19px;
     color: #000000;
 }
 #Explore {
+    position: relative;
     width: 174px;
     height: 57px;
+    margin-top: 35px; 
+    /* margin-left: 739px; */
     font-size: 24px;
     font-weight: 500;
     line-height: 19px;
